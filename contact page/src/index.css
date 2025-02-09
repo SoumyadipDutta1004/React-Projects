@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.primary-btn{
+  @apply flex items-center justify-center gap-1.5 font-medium bg-black py-2.5 px-5 rounded-lg text-white w-[50%] cursor-pointer transition-all duration-200 ease-linear hover:bg-white hover:text-black hover:outline-2;
+}
+.outline-btn{
+  @apply flex items-center justify-center gap-1.5 outline-2 font-medium bg-white py-2.5 px-5 rounded-lg text-black w-[100%] cursor-pointer transition-all duration-200 ease-linear hover:bg-black hover:text-white;
+}
