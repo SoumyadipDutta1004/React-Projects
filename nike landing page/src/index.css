@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.btn{
+  @apply bg-red-600 text-white font-bold px-4 py-2 rounded-lg cursor-pointer duration-200 hover:bg-red-700;
+}
+.btn2{
+  @apply  text-gray-500 border-2 font-bold px-4 py-2 rounded-lg cursor-pointer;
+}
