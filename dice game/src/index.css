@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import "tailwindcss";
+
+.btn{
+  @apply bg-black text-white font-semibold w-[220px] px-4.5 py-2 rounded-md cursor-pointer transition-all duration-200 ease-in hover:scale-125;
+}
+.outline-btn{
+  @apply bg-white text-black font-semibold w-[220px] border-2 px-4.5 py-2 rounded-md cursor-pointer transition-all duration-200 ease-in hover:scale-125;
+}
+.dice-selector{
+  @apply h-[55px] w-[55px] border-2 border-black rounded-md font-[Iceland] text-5xl grid place-items-center cursor-pointer;
+}
